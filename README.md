@@ -34,7 +34,7 @@ If we replace our custom Maybe with the Folktale Library Maybe the code now beco
 
 This is not a React.js book, so we are not going to expand on the  React concepts. You can try to run the Application bellow. When you type any integer value into the text input, react calls the `ClientService` retrieves the client name and display it into a `<div>`.
 
-<iframe  height="500" width="100%" src="https://stackblitz.com/edit/maybe-reactjs-with-folktalejs?file=src/App.js"></iframe>
+
 
 ```javascript
  import React from 'react';
@@ -69,7 +69,7 @@ export default class App extends React.Component {
 }
 ```
 
-​														 																																					***[Run this](https://stackblitz.com/edit/maybe-reactjs-with-folktalejs?file=src/App.js){:target="_blank"}***
+​[Run this](https://stackblitz.com/edit/maybe-reactjs-with-folktalejs?file=src/App.js)
 
 This React app is very simple. The core of the app is in the app.js file. Inside the `render() `method you can find the html snippet that the component renders:
 
